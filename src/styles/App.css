@@ -1,1 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+}
+#root{
+    height: 100vh;
+}
+.App{
+    height: 100%;
+}
+.WeatherApp{
+    height: 100%;
+    padding: 30px;
+}
+.WeatherApp input{
+    margin: 10px 0px;
+    height: 25px;
+}
+.WeatherApp button{
+    margin: 10px 0px;
+    padding: 5px 20px;
+}
 
