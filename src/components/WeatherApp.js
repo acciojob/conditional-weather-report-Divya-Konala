@@ -32,7 +32,7 @@ const WeatherApp=()=>{
             ?<>
                 {
                     ( temp!==undefined && condition!==undefined)
-                    ?<h2>temperature: {temp} conditions: {condition}</h2>
+                    ?<p>temperature: {temp} conditions: {condition}</p>
                     :<p>Invalid location</p>
                 }
             </>
